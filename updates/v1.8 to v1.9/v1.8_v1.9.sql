@@ -1,0 +1,1 @@
+INSERT INTO `general_settings` (`general_settings_id`, `type`, `value`) VALUES ('87', 'time_zone', 'Asia/Dhaka');
