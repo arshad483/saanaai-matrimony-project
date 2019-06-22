@@ -128,3 +128,4 @@
 <?php include_once APPPATH.'views/front/section3/index.php';?>
 <?php include_once APPPATH.'views/front/section4/index.php';?>
 <?php include_once APPPATH.'views/front/section2/index.php';?>
+<?php include_once APPPATH.'views/front/section5/index.php';?>
