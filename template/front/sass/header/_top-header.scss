@@ -1,8 +1,8 @@
 .top-navbar {
 	background: $navbar-bg;
 	border-bottom: 1px solid $navbar-border-color;
-	position: relative;
-	z-index: 710;
+	position: fixed;
+	
 }
 
 .header-affix.sps--blw .top-navbar {

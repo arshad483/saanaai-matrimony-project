@@ -125,3 +125,4 @@
         }
     });
 </script>
+<?php include_once APPPATH.'views/front/section1/index.php';?>

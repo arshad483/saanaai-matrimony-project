@@ -1,19 +1,19 @@
 <!-- MAIN WRAPPER -->
-<div class="body-wrap">
+<div class="body-wrap ">
     <div id="st-container" class="st-container">
         <div class="st-pusher">
             <div class="st-content">
                 <div class="st-content-inner">
 					<!-- Navbar -->
-					<div id="myHeader">
-						<div class="top-navbar align-items-center">
-						    <div class="container">
-						        <div class="row align-items-center py-1" style="padding-bottom: 0px !important">
-						            <div class="col-lg-4 col-md-5 col">
-	                                    <nav class="top-navbar-menu" style="margin:0px !important;">
+					<div id="myHeader ">
+						<div class="top-navbar align-items-center  ">
+						    <div class="container ">
+						        <div class="row align-items-center py-1 " style="padding-bottom: 0px !important">
+						            <div class="col-lg-4 col-md-5 col ">
+	                                    <nav class="top-navbar-menu " style="margin:0px !important;">
 	                                        <ul class="top-menu" style="float: left !important;width: 40%;">
 	                                            <li class="aux-languages dropdown">
-		                                            <a class="pt-0 pb-0">
+		                                            <a class="pt-0 pb-0">                                                                                                                    
 		                                            	<?php
 						                                    if ($set_lang = $this->session->userdata('language')) {
 
@@ -90,7 +90,7 @@
 						        </div>
 						    </div>
 						</div>
-						<nav class="navbar navbar-expand-lg navbar-light bg-default navbar--link-arrow navbar--uppercase">
+						<nav class="navbar navbar-expand-lg navbar-light bg-default navbar--link-arrow navbar--uppercase " >
 						    <div class="container navbar-container">
 						        <!-- Brand/Logo -->
 						        <a class="navbar-brand" href="<?=base_url()?>home/">
