@@ -6,7 +6,7 @@
                 <div class="st-content-inner">
 					<!-- Navbar -->
 					<div id="myHeader ">
-						<div class="top-navbar align-items-center  ">
+						<div class="top-navbar align-items-center fixed-top  ">
 						    <div class="container ">
 						        <div class="row align-items-center py-1 " style="padding-bottom: 0px !important">
 						            <div class="col-lg-4 col-md-5 col ">
