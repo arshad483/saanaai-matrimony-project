@@ -13,6 +13,7 @@ foreach ($get_all_members as $member): ?>
             <a onclick="return goto_profile(<?=$member->member_id?>)">
                     <?php
                     if (file_exists('uploads/profile_image/'.$image[0]['profile_image'])) {
+                        $pic_privacy_data[0]['profile_pic_show']='only_me'
                     ?>
                     <?php
                         $pic_privacy = $member->pic_privacy;
@@ -28,9 +29,13 @@ foreach ($get_all_members as $member): ?>
                         ?>
                             <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/default.jpg"></div>
                         <?php }elseif ($pic_privacy_data[0]['profile_pic_show']=='all') {
+                            if(empty($this->session->userdata('member_id'))){
                         ?>
-                        <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>)"></div>
-                    <?php }else{ ?>
+                        <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>);-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);"></div>
+                    <?php }else{?>
+                        <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>);"></div>
+                    <?php }}else{ ?>
                         <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/default.jpg"></div>
                     <?php }
                     }
