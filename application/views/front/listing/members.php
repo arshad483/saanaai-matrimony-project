@@ -1,3 +1,14 @@
+<style>
+.watermark {
+    position: absolute;
+    opacity: 0.7;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+}
+</style>
 <?php
 if (empty($get_all_members)) {
     ?>
@@ -34,7 +45,7 @@ foreach ($get_all_members as $member): ?>
                         <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>);-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   filter: blur(5px);"></div>
                     <?php }else{?>
-                        <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>);"></div>
+                        <div class="watermark">Saanaai.com</div><div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/<?=$image[0]['profile_image']?>);"></div>
                     <?php }}else{ ?>
                         <div class="listing-image" style="background-image: url(<?=base_url()?>uploads/profile_image/default.jpg"></div>
                     <?php }
