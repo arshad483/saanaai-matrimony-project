@@ -206,8 +206,8 @@ p{margin:0 0 10px;}
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 mt30 text-center"> <a href="https://www.lovevivah.com/membership" class="btn btn-blue bor-r50 btn-big ripplelink" id="HP_Membership_CTA">Browse Membership Plans</a>
-          <p class="member-know"> To know more, call us @ +91-124-265 8600 (India) </p>
+        <div class="col-md-12 mt30 text-center"> <a href="http://www.saanaai.com/home/plans" class="btn btn-blue bor-r50 btn-big ripplelink" id="HP_Membership_CTA">Browse Membership Plans</a>
+          <p class="member-know"> To know more, call us @ +018 58 6711 88 (Bangladesh) </p>
         </div>
       </div>
     </div>

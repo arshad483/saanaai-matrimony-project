@@ -2322,7 +2322,7 @@ class Home extends CI_Controller {
         if ($para1=="") {
             $page_data['title'] = "Premium Plans || ".$this->system_title;
             $page_data['top'] = "plans.php";
-            $page_data['page'] = "plans";
+            $page_data['page'] = "plans1";
             $page_data['bottom'] = "plans.php";
             $page_data['all_plans'] = $this->db->get("plan")->result();
             if ($this->session->flashdata('alert') == "paypal_cancel") {

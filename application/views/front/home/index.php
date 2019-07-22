@@ -36,9 +36,6 @@
     if($home_stories_status=='yes'){
         include_once'happy_stories.php';
     }
-    if($home_plans_status=='yes'){
-        include_once'packages.php';
-    }
     if($home_contact_status=='yes'){
         include_once'contact.php';
     }
